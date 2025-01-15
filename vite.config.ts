@@ -17,7 +17,7 @@ export default defineConfig({
         vite: {
           build: {
             rollupOptions: {
-              external: ["sharp", "electron", "electron-is-dev"]
+              external: ["electron", "electron-is-dev"]
             }
           }
         }
@@ -42,7 +42,7 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
-      external: ["sharp", "electron", "electron-is-dev"],
+      external: ["electron", "electron-is-dev"],
       input: {
         main: resolve(__dirname, "./index.html")
       }

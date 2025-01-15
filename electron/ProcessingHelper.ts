@@ -81,7 +81,7 @@ export class ProcessingHelper {
               fs.readFileSync(path).toString("base64"),
               800,
               0.7
-            ),
+            )
           }))
         )
 
